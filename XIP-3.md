@@ -1,10 +1,10 @@
 ## XIP 3: reduce $XNET total supply by 99%
 
-Proposed by Connor Lovely
+By: Connor Lovely
 
 ### Background
-XNET has hit an inflection point in growth recently across important network metrics such as online nodes, paid data transferred, and number of token holders (see [here](https://dune.com/steve314600/xnet)).  \
- \
+XNET has hit an inflection point in growth recently across important network metrics such as online nodes, paid data transferred, and number of token holders (see [here](https://dune.com/steve314600/xnet)).
+
 With the creation of a large liquidity pool on Ethereum, the token is much more accessible and liquid, which has resulted in significant recent price appreciation. This is good for all stakeholders and will speed the network growth flywheel (higher token price = higher $ incentives for deployment = more deployment = bigger network = more data transfer = more token burn for data transfer = higher token price). 
 
 In spite of all of this recent progress, the primary complaint of would be investors and industry peers (that is fair IMO) is XNET’s massive and irregular token supply overhang. The market doesn’t like tiny floats because the large difference between circulating supply and total supply (of tokens) means current and future tokenholders are greatly concerned about being diluted when future tokens come online. 
