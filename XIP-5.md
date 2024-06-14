@@ -18,44 +18,12 @@ The reward adjustment formula is designed to dynamically scale the token rewards
 
 From testing, we have found a value of 𝑘=2 works well to reduce emissions at a reasonable rate. Please refer to Appendix A for more detail on the role of k.
 
-
 #### Calculation of Adjustment Factors for Various Prices:
-
-
-
-* At $0.05:
-
-
- ≈ 2.512
-
-
-
-* At $0.10:
-
-
- ≈ 1
-
-
-
-* At $0.50:
-
-
- ≈ 0.590
-
-
-
-* At $1.00:
-
- ≈ 0.333
-
-
-
-* At $5.00:
-
-
-
- ≈ 0.091
-
+* At $0.05: ≈ 2.512
+* At $0.10: ≈ 1
+* At $0.50: ≈ 0.590
+* At $1.00: ≈ 0.333
+* At $5.00: ≈ 0.091
 
 <table>
   <tr>
@@ -102,9 +70,7 @@ From testing, we have found a value of 𝑘=2 works well to reduce emissions at 
   </tr>
 </table>
 
-
 Worked example for associated $XNET rewards for a Roofus (BLINQ-FW300) radio during an Epoch at the respective adjustment factors:  
-
 
 <table>
   <tr>
