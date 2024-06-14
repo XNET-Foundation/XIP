@@ -2,18 +2,13 @@
 
 Draft by: Heated Lime
 
-
 ### Background
-
 Currently, deployers are paid a fixed 50 XNET per GB for Wi-Fi offload, regardless of the price of XNET. Therefore, it’s hard for deployers to negotiate a fixed amount per GB split with hosts, as those payouts may vary per epoch. Further, a deployer could offload 100 GB per month in different months, and receive a varying fiat amount converted from XNET due to market fluctuations. 
 
 In an effort to make data rewards more predictable for deployers, this XIP proposes implementing a variable amount of XNET corresponding to the average price per epoch, along with a fixed XNET token reward per GB (i.e. $X.XX worth of XNET plus X amount of XNET)
 
-
 ### Proposal
-
 This XIP proposes the following payout schedule per GB for Wi-Fi offload:
-
 
 <table>
   <tr>
@@ -114,9 +109,7 @@ This XIP proposes the following payout schedule per GB for Wi-Fi offload:
   </tr>
 </table>
 
-
 The average XNET price from all days in the epoch in which the data occurred will be used to calculate the price in which the fiat amount is calculated. For example, this example will assume 30 GB of Wi-Fi data was offloaded from the past epoch in Q2 2024, and will assume the following price of XNET from that epoch:
-
 
 <table>
   <tr>
