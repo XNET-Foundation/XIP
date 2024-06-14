@@ -11,8 +11,7 @@ A baseline price of $0.10 was chosen for the sake of this model, for simplicity 
 The reward adjustment formula is designed to dynamically scale the token rewards distributed to node operators based on the current market price of $XNET and the percentage growth of the network. This method ensures that rewards remain fair, sustainable, and aligned with the overall health and expansion of the network.
 
 #### Adjustment Factor Calculation
-
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](assets/xip-5.png)
 
 𝑘 = Sensitivity constant, determining how sharply the rewards decrease as the price increases. 
 
