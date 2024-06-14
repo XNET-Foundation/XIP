@@ -7,7 +7,7 @@ Phase X was an initiative introduced early in XNET’s launch to properly incent
 
 The current circulating supply of $XNET is approximately [24,829,890](https://dune.com/queries/3535629/5954004). Through Q4 2024 the circulating supply is projected to grow to approximately 80,000,000 assuming fairly conservative radio growth. With XNET’s recent exponential growth, the circulating supply through Q4 2024 may be higher. 
 
-_(Dated Emissions Tab): _[https://docs.google.com/spreadsheets/d/1QnhjSzbC_d4xOC7K7oRFP27Tqjc062vKElTSBGyQTcQ/edit#gid=160862862](https://docs.google.com/spreadsheets/d/1QnhjSzbC_d4xOC7K7oRFP27Tqjc062vKElTSBGyQTcQ/edit#gid=160862862)
+(Dated Emissions Tab): [Link](https://docs.google.com/spreadsheets/d/1QnhjSzbC_d4xOC7K7oRFP27Tqjc062vKElTSBGyQTcQ/edit#gid=160862862)
 
 In an effort to manage dilution and supply inflation in the near term and more importantly to incentivize balanced network growth we can aim to target a reduction in emission to CBRS radios. 
 
@@ -15,32 +15,20 @@ Currently CBRS radios account for most of the emissions from the operator pool (
 
 <table>
   <tr>
-   <td><strong>Coverage</strong>
-   </td>
-   <td><strong>Validation </strong>
-   </td>
-   <td><strong>Staking</strong>
-   </td>
-   <td><strong>Gold Hex Bonus</strong>
-   </td>
-   <td><strong>Data (not live)</strong>
-   </td>
-   <td><strong>Total (per Epoch)</strong>
-   </td>
+   <td><strong>Coverage</strong></td>
+   <td><strong>Validation </strong></td>
+   <td><strong>Staking</strong></td>
+   <td><strong>Gold Hex Bonus</strong></td>
+   <td><strong>Data (not live)</strong></td>
+   <td><strong>Total (per Epoch)</strong></td>
   </tr>
   <tr>
-   <td>1250 
-   </td>
-   <td>1250
-   </td>
-   <td>5000
-   </td>
-   <td>5000
-   </td>
-   <td>0
-   </td>
-   <td>12,500
-   </td>
+   <td>1250 </td>
+   <td>1250</td>
+   <td>5000</td>
+   <td>5000</td>
+   <td>0</td>
+   <td>12,500</td>
   </tr>
 </table>
 
@@ -53,28 +41,18 @@ An example of $XNET rewards for a Roofus (BLINQ-FW300) radio is shown below with
 
 <table>
   <tr>
-   <td><strong>Coverage</strong>
-   </td>
-   <td><strong>Validation </strong>
-   </td>
-   <td><strong>Gold Hex Bonus</strong>
-   </td>
-   <td><strong>Data (not live)</strong>
-   </td>
-   <td><strong>Total (per Epoch)</strong>
-   </td>
+   <td><strong>Coverage</strong></td>
+   <td><strong>Validation </strong></td>
+   <td><strong>Gold Hex Bonus</strong></td>
+   <td><strong>Data (not live)</strong></td>
+   <td><strong>Total (per Epoch)</strong></td>
   </tr>
   <tr>
-   <td>1250 
-   </td>
-   <td>1250
-   </td>
-   <td>5000
-   </td>
-   <td>0
-   </td>
-   <td>7,500
-   </td>
+   <td>1250 </td>
+   <td>1250</td>
+   <td>5000</td>
+   <td>0</td>
+   <td>7,500</td>
   </tr>
 </table>
 
