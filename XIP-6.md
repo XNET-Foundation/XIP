@@ -12,100 +12,64 @@ This XIP proposes the following payout schedule per GB for Wi-Fi offload:
 
 <table>
   <tr>
-   <td>Period
-   </td>
-   <td>Fixed Fiat Amount Worth of XNET per GB
-   </td>
-   <td>Fixed Token Amount per GB
-   </td>
+   <td>Period</td>
+   <td>Fixed Fiat Amount Worth of XNET per GB</td>
+   <td>Fixed Token Amount per GB</td>
   </tr>
   <tr>
-   <td>Q2 2024
-   </td>
-   <td>$3.50 
-   </td>
-   <td>10 XNET
-   </td>
+   <td>Q2 2024</td>
+   <td>$3.50 </td>
+   <td>10 XNET</td>
   </tr>
   <tr>
-   <td>Q3 2024
-   </td>
-   <td>$3.50
-   </td>
-   <td>8 XNET
-   </td>
+   <td>Q3 2024</td>
+   <td>$3.50</td>
+   <td>8 XNET</td>
   </tr>
   <tr>
-   <td>Q4 2024
-   </td>
-   <td>$3.50
-   </td>
-   <td>6 XNET
-   </td>
+   <td>Q4 2024</td>
+   <td>$3.50</td>
+   <td>6 XNET</td>
   </tr>
   <tr>
-   <td>Q1 2025
-   </td>
-   <td>$3.00
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q1 2025</td>
+   <td>$3.00</td>
+   <td>5 XNET</td>
   </tr>
   <tr>
-   <td>Q2 2025
-   </td>
-   <td>$3.00
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q2 2025</td>
+   <td>$3.00</td>
+   <td>5 XNET</td>
   </tr>
   <tr>
-   <td>Q3 2025
-   </td>
-   <td>$2.50
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q3 2025</td>
+   <td>$2.50</td>
+   <td>5 XNET</td>
   </tr>
   <tr>
-   <td>Q4 2025
-   </td>
-   <td>$2.50
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q4 2025</td>
+   <td>$2.50</td>
+   <td>5 XNET</td>
   </tr>
   <tr>
-   <td>Q1 2026
-   </td>
-   <td>$2.00
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q1 2026</td>
+   <td>$2.00</td>
+   <td>5 XNET</td>
   </tr>
   <tr>
-   <td>Q2 2026
-   </td>
-   <td>$2.00
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q2 2026</td>
+   <td>$2.00</td>
+   <td>5 XNET</td>
   </tr>
   <tr>
-   <td>Q3 2026
-   </td>
-   <td>$1.50
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q3 2026</td>
+   <td>$1.50</td>
+   <td>5 XNET</td>
   </tr>
   <tr>
-   <td>Q4 2026+
-   </td>
-   <td>$1.50
-   </td>
-   <td>5 XNET
-   </td>
+   <td>Q4 2026+</td>
+   <td>$1.50</td>
+   <td>5 XNET</td>
   </tr>
 </table>
 
@@ -113,117 +77,79 @@ The average XNET price from all days in the epoch in which the data occurred wil
 
 <table>
   <tr>
-   <td>Epoch Day
-   </td>
-   <td>Average Daily Price
-   </td>
+   <td>Epoch Day</td>
+   <td>Average Daily Price</td>
   </tr>
   <tr>
-   <td>Day 1
-   </td>
-   <td>$.045
-   </td>
+   <td>Day 1</td>
+   <td>$.045</td>
   </tr>
   <tr>
-   <td>Day 2
-   </td>
-   <td>$.056
-   </td>
+   <td>Day 2</td>
+   <td>$.056</td>
   </tr>
   <tr>
-   <td>Day 3
-   </td>
-   <td>$.082
-   </td>
+   <td>Day 3</td>
+   <td>$.082</td>
   </tr>
   <tr>
-   <td>Day 4
-   </td>
-   <td>$.090
-   </td>
+   <td>Day 4</td>
+   <td>$.090</td>
   </tr>
   <tr>
-   <td>Day 5
-   </td>
-   <td>$.055
-   </td>
+   <td>Day 5</td>
+   <td>$.055</td>
   </tr>
   <tr>
-   <td>Day 6
-   </td>
-   <td>$.05
-   </td>
+   <td>Day 6</td>
+   <td>$.05</td>
   </tr>
   <tr>
-   <td>Day 7
-   </td>
-   <td>$.049
-   </td>
+   <td>Day 7</td>
+   <td>$.049</td>
   </tr>
   <tr>
-   <td>Day 8
-   </td>
-   <td>$.0420
-   </td>
+   <td>Day 8</td>
+   <td>$.0420</td>
   </tr>
   <tr>
-   <td>Day 9
-   </td>
-   <td>$.069
-   </td>
+   <td>Day 9</td>
+   <td>$.069</td>
   </tr>
   <tr>
-   <td>Day 10
-   </td>
-   <td>$.056
-   </td>
+   <td>Day 10</td>
+   <td>$.056</td>
   </tr>
   <tr>
-   <td>Day 11
-   </td>
-   <td>$.065
-   </td>
+   <td>Day 11</td>
+   <td>$.065</td>
   </tr>
   <tr>
-   <td>Day 12
-   </td>
-   <td>$.053
-   </td>
+   <td>Day 12</td>
+   <td>$.053</td>
   </tr>
   <tr>
-   <td>Day 13
-   </td>
-   <td>$.052
-   </td>
+   <td>Day 13</td>
+   <td>$.052</td>
   </tr>
   <tr>
-   <td>Day 14
-   </td>
-   <td>$.050
-   </td>
+   <td>Day 14</td>
+   <td>$.050</td>
   </tr>
   <tr>
-   <td><strong>Average Price for Epoch</strong>
-   </td>
-   <td><strong>$0.0581</strong>
-   </td>
+   <td><strong>Average Price for Epoch</strong></td>
+   <td><strong>$0.0581</strong></td>
   </tr>
   <tr>
-   <td><strong>Variable XNET Reward</strong>
-   </td>
-   <td><strong>(3.50/.0581) = 60.24</strong>
-   </td>
+   <td><strong>Variable XNET Reward</strong></td>
+   <td><strong>(3.50/.0581) = 60.24</strong></td>
   </tr>
   <tr>
-   <td><strong>Fixed XNET Reward</strong>
-   </td>
-   <td><strong>10</strong>
-   </td>
+   <td><strong>Fixed XNET Reward</strong></td>
+   <td><strong>10</strong></td>
   </tr>
   <tr>
-   <td><strong>Total XNET Reward for Epoch</strong>
-   </td>
-   <td><strong>70.24</strong>
-   </td>
+   <td><strong>Total XNET Reward for Epoch</strong></td>
+   <td><strong>70.24</strong></td>
   </tr>
 </table>
