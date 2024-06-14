@@ -1,6 +1,6 @@
 ## XIP 5: Implementation of Price Oracle Algorithm 
 Draft by bigXhaan, Dharma
-_(Dated Emissions Tab): _[https://docs.google.com/spreadsheets/d/1QnhjSzbC_d4xOC7K7oRFP27Tqjc062vKElTSBGyQTcQ/edit#gid=160862862](https://docs.google.com/spreadsheets/d/1QnhjSzbC_d4xOC7K7oRFP27Tqjc062vKElTSBGyQTcQ/edit#gid=160862862)
+(Dated Emissions Tab): [Link](https://docs.google.com/spreadsheets/d/1QnhjSzbC_d4xOC7K7oRFP27Tqjc062vKElTSBGyQTcQ/edit#gid=160862862)
 
 ### Implementation of Price Oracle Algorithms
 In an effort to effectively manage token emissions in real time, this proposal is incorporating a price oracle algorithm. This tool aims to dynamically adjust token distribution based on the current market value of $XNET, ensuring that emissions are proportional to token worth. This strategy prevents excessive issuance during price spikes and maintains economic stability by linking the reward system directly to market conditions. The oracle algorithm allows XNET to provide a balanced incentive for network participation while safeguarding the ecosystem against inflation and ensuring a resilient supply mechanism.
