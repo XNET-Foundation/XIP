@@ -26,46 +26,32 @@ From testing, we have found a value of 𝑘=2 works well to reduce emissions at 
 
 <table>
   <tr>
-   <td><strong>Price of $XNET</strong>
-   </td>
-   <td><strong>Adjustment Factor</strong>
-   </td>
+   <td><strong>Price of $XNET</strong></td>
+   <td><strong>Adjustment Factor</strong></td>
   </tr>
   <tr>
-   <td>$0.05
-   </td>
-   <td>2.512
-   </td>
+   <td>$0.05</td>
+   <td>2.512</td>
   </tr>
   <tr>
-   <td>$0.10
-   </td>
-   <td>1.000
-   </td>
+   <td>$0.10</td>
+   <td>1.000</td>
   </tr>
   <tr>
-   <td>$0.50
-   </td>
-   <td>0.590
-   </td>
+   <td>$0.50</td>
+   <td>0.590</td>
   </tr>
   <tr>
-   <td>$1.00
-   </td>
-   <td>0.333
-   </td>
+   <td>$1.00</td>
+   <td>0.333</td>
   </tr>
   <tr>
-   <td>$5.00
-   </td>
-   <td>0.143
-   </td>
+   <td>$5.00</td>
+   <td>0.143</td>
   </tr>
   <tr>
-   <td>$10.00
-   </td>
-   <td>0.091
-   </td>
+   <td>$10.00</td>
+   <td>0.091</td>
   </tr>
 </table>
 
@@ -73,88 +59,53 @@ Worked example for associated $XNET rewards for a Roofus (BLINQ-FW300) radio dur
 
 <table>
   <tr>
-   <td><strong>Adjustment Factor</strong>
-   </td>
-   <td><strong>Adjusted Coverage</strong>
-   </td>
-   <td><strong>Adjusted Validation</strong>
-   </td>
-   <td><strong>Adjusted Gold</strong>
-   </td>
-   <td><strong>Total Epoch Rewards</strong>
-   </td>
+   <td><strong>Adjustment Factor</strong></td>
+   <td><strong>Adjusted Coverage</strong></td>
+   <td><strong>Adjusted Validation</strong></td>
+   <td><strong>Adjusted Gold</strong></td>
+   <td><strong>Total Epoch Rewards</strong></td>
   </tr>
   <tr>
-   <td>2.512
-   </td>
-   <td>3140
-   </td>
-   <td>3140
-   </td>
-   <td>12560
-   </td>
-   <td>18840.0
-   </td>
+   <td>2.512</td>
+   <td>3140</td>
+   <td>3140</td>
+   <td>12560</td>
+   <td>18840.0</td>
   </tr>
   <tr>
-   <td>1.000
-   </td>
-   <td>1250
-   </td>
-   <td>1250
-   </td>
-   <td>5000
-   </td>
-   <td>7500.0
-   </td>
+   <td>1.000</td>
+   <td>1250</td>
+   <td>1250</td>
+   <td>5000</td>
+   <td>7500.0</td>
   </tr>
   <tr>
-   <td>0.590
-   </td>
-   <td>737.50
-   </td>
-   <td>737.50
-   </td>
-   <td>2950
-   </td>
-   <td>4425.0
-   </td>
+   <td>0.590</td>
+   <td>737.50</td>
+   <td>737.50</td>
+   <td>2950</td>
+   <td>4425.0</td>
   </tr>
   <tr>
-   <td>0.333
-   </td>
-   <td>416.25
-   </td>
-   <td>416.25
-   </td>
-   <td>1665
-   </td>
-   <td>2497.5
-   </td>
+   <td>0.333</td>
+   <td>416.25</td>
+   <td>416.25</td>
+   <td>1665</td>
+   <td>2497.5</td>
   </tr>
   <tr>
-   <td>0.143
-   </td>
-   <td>178.75
-   </td>
-   <td>178.75
-   </td>
-   <td>715
-   </td>
-   <td>1072.5
-   </td>
+   <td>0.143</td>
+   <td>178.75</td>
+   <td>178.75</td>
+   <td>715</td>
+   <td>1072.5</td>
   </tr>
   <tr>
-   <td>0.091
-   </td>
-   <td>113.75
-   </td>
-   <td>113.75
-   </td>
-   <td>455
-   </td>
-   <td>682.5
-   </td>
+   <td>0.091</td>
+   <td>113.75</td>
+   <td>113.75</td>
+   <td>455</td>
+   <td>682.5</td>
   </tr>
 </table>
 
