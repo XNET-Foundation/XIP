@@ -14,76 +14,13 @@ I don’t believe we need nearly as many tokens as were initially laid out in th
 The below chart shows the current state of DeWi tokenomics. Note XNET’s tiny float compared to much larger industry peers.
 
 <table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>XNET</strong>
-   </td>
-   <td><strong>Helium</strong>
-   </td>
-   <td><strong>World Mobile</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Circ. tokens</strong>
-   </td>
-   <td>22M
-   </td>
-   <td>165M
-   </td>
-   <td>576M
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Token price</strong>
-   </td>
-   <td>$0.15
-   </td>
-   <td>$5
-   </td>
-   <td>$0.31
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Circ. MC</strong>
-   </td>
-   <td>$3.3M
-   </td>
-   <td>$825M
-   </td>
-   <td>$179M
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Total tokens</strong>
-   </td>
-   <td>24B
-   </td>
-   <td>223M
-   </td>
-   <td>2B
-   </td>
-  </tr>
-  <tr>
-   <td><strong>FDV</strong>
-   </td>
-   <td>$3.6B
-   </td>
-   <td>$1.1B
-   </td>
-   <td>$630.5M
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Float</strong>
-   </td>
-   <td><span style="text-decoration:underline;">0.08%</span>
-   </td>
-   <td><span style="text-decoration:underline;">73%</span>
-   </td>
-   <td><span style="text-decoration:underline;">28.5%</span>
-   </td>
-  </tr>
+  <tr><td></td><td><strong>XNET</strong></td><td><strong>Helium</strong></td><td><strong>World Mobile</strong></td></tr>
+  <tr><td><strong>Circ. tokens</strong></td><td>22M</td><td>165M</td><td>576M</td></tr>
+  <tr><td><strong>Token price</strong></td><td>$0.15</td><td>$5</td><td>$0.31</td></tr>
+  <tr><td><strong>Circ. MC</strong></td><td>$3.3M</td><td>$825M</td><td>$179M</td></tr>
+  <tr><td><strong>Total tokens</strong></td><td>24B</td><td>223M</td><td>2B</td></tr>
+  <tr><td><strong>FDV</strong></td><td>$3.6B</td><td>$1.1B</td><td>$630.5M</td></tr>
+  <tr><td><strong>Float</strong></td><td><span style="text-decoration:underline;">0.08%</span></td><td><span style="text-decoration:underline;">73%</span></td><td><span style="text-decoration:underline;">28.5%</span></td></tr>
 </table>
 
 ### Proposal
@@ -95,102 +32,60 @@ The column highlighted in green is my proposal and would put us more closely in 
 
 <table>
   <tr>
-   <td>
-   </td>
-   <td><strong>XNET</strong>
-   </td>
-   <td><strong>XNET w 90% cut</strong>
-   </td>
-   <td><strong>XNET w 99% cut</strong>
-   </td>
-   <td><strong>Helium</strong>
-   </td>
-   <td><strong>World Mobile</strong>
-   </td>
+   <td></td>
+   <td><strong>XNET</strong></td>
+   <td><strong>XNET w 90% cut</strong></td>
+   <td><strong>XNET w 99% cut</strong></td>
+   <td><strong>Helium</strong></td>
+   <td><strong>World Mobile</strong></td>
   </tr>
   <tr>
-   <td><strong>Circ. tokens</strong>
-   </td>
-   <td>22M
-   </td>
-   <td>22M
-   </td>
-   <td>22M
-   </td>
-   <td>165M
-   </td>
-   <td>576M
-   </td>
+   <td><strong>Circ. tokens</strong></td>
+   <td>22M</td>
+   <td>22M</td>
+   <td>22M</td>
+   <td>165M</td>
+   <td>576M</td>
   </tr>
   <tr>
-   <td><strong>Token price</strong>
-   </td>
-   <td>$0.15
-   </td>
-   <td>$0.15
-   </td>
-   <td>$0.15
-   </td>
-   <td>$5
-   </td>
-   <td>$0.31
-   </td>
+   <td><strong>Token price</strong></td>
+   <td>$0.15</td>
+   <td>$0.15</td>
+   <td>$0.15</td>
+   <td>$5</td>
+   <td>$0.31</td>
   </tr>
   <tr>
-   <td><strong>Circ. MC</strong>
-   </td>
-   <td>$3.3M
-   </td>
-   <td>$3.3M
-   </td>
-   <td>$3.3M
-   </td>
-   <td>$825M
-   </td>
-   <td>$179M
-   </td>
+   <td><strong>Circ. MC</strong></td>
+   <td>$3.3M</td>
+   <td>$3.3M</td>
+   <td>$3.3M</td>
+   <td>$825M</td>
+   <td>$179M</td>
   </tr>
   <tr>
-   <td><strong>Total tokens</strong>
-   </td>
-   <td>24B
-   </td>
-   <td>2.4B
-   </td>
-   <td>240M
-   </td>
-   <td>223M
-   </td>
-   <td>2B
-   </td>
+   <td><strong>Total tokens</strong></td>
+   <td>24B</td>
+   <td>2.4B</td>
+   <td>240M</td>
+   <td>223M</td>
+   <td>2B</td>
   </tr>
   <tr>
-   <td><strong>FDV</strong>
-   </td>
-   <td>$3.6B
-   </td>
-   <td>$360M
-   </td>
-   <td>$36M
-   </td>
-   <td>$1.1B
-   </td>
-   <td>$630.5M
-   </td>
+   <td><strong>FDV</strong></td>
+   <td>$3.6B</td>
+   <td>$360M</td>
+   <td>$36M</td>
+   <td>$1.1B</td>
+   <td>$630.5M</td>
   </tr>
   <tr>
-   <td><strong>Float</strong>
-   </td>
-   <td><span style="text-decoration:underline;">0.08%</span>
-   </td>
-   <td><span style="text-decoration:underline;">0.8%</span>
-   </td>
-   <td><span style="text-decoration:underline;">8%</span>
-   </td>
-   <td><span style="text-decoration:underline;">73%</span>
-   </td>
-   <td><span style="text-decoration:underline;">28.5%</span>
-   </td>
+   <td><strong>Float</strong></td>
+   <td><span style="text-decoration:underline;">0.08%</span></td>
+   <td><span style="text-decoration:underline;">0.8%</span></td>
+   <td><span style="text-decoration:underline;">8%</span></td>
+   <td><span style="text-decoration:underline;">73%</span></td>
+   <td><span style="text-decoration:underline;">28.5%</span></td>
   </tr>
 </table>
 
