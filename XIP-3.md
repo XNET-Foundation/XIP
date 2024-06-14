@@ -2,9 +2,7 @@
 
 Proposed by Connor Lovely
 
-
 ### Background
-
 XNET has hit an inflection point in growth recently across important network metrics such as online nodes, paid data transferred, and number of token holders (see [here](https://dune.com/steve314600/xnet)).  \
  \
 With the creation of a large liquidity pool on Ethereum, the token is much more accessible and liquid, which has resulted in significant recent price appreciation. This is good for all stakeholders and will speed the network growth flywheel (higher token price = higher $ incentives for deployment = more deployment = bigger network = more data transfer = more token burn for data transfer = higher token price). 
@@ -14,7 +12,6 @@ In spite of all of this recent progress, the primary complaint of would be inves
 I don’t believe we need nearly as many tokens as were initially laid out in the $XNET tokenomics and propose a 99% reduction in the total supply. This can come purely from _future_ emissions and will be relatively simple to implement given that a 99% cut will leave us with 240M tokens total, which is >10x the circulating supply of tokens, meaning no one will need to burn/send their current tokens anywhere. 
 
 The below chart shows the current state of DeWi tokenomics. Note XNET’s tiny float compared to much larger industry peers.
-
 
 <table>
   <tr>
@@ -89,16 +86,12 @@ The below chart shows the current state of DeWi tokenomics. Note XNET’s tiny f
   </tr>
 </table>
 
-
-
 ### Proposal
-
 I’m proposing a 99% cut to $XNET total token supply, which is detailed below. Even a 90% cut is not enough in my opinion given that it will still leave XNET with a tiny float compared to peers.
 
 **It’s important to note that this burn comes purely from unissued tokens, which if executed will be extremely beneficial to current tokenholders as their tokens won’t be touched while future tokens/dilution will be greatly reduced.**
 
 The column highlighted in green is my proposal and would put us more closely in line with industry peers. 
-
 
 <table>
   <tr>
@@ -200,12 +193,7 @@ The column highlighted in green is my proposal and would put us more closely in 
    </td>
   </tr>
 </table>
-
-
  \
 
-
-
 ### Implementation
-
 This XIP will be simple to implement since the token burns can come purely from _future_ emissions (unissued tokens). In the “Burn in Place” scenario, the XNET team would systematically burn 99% of the unissued tokens from each pool, including the operator pool, the foundation pool, and the insiders/investor pool.  
