@@ -193,7 +193,6 @@ The column highlighted in green is my proposal and would put us more closely in 
    </td>
   </tr>
 </table>
- \
 
 ### Implementation
 This XIP will be simple to implement since the token burns can come purely from _future_ emissions (unissued tokens). In the “Burn in Place” scenario, the XNET team would systematically burn 99% of the unissued tokens from each pool, including the operator pool, the foundation pool, and the insiders/investor pool.  
