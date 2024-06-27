@@ -13,16 +13,22 @@ The reward adjustment formula is designed to dynamically scale the token rewards
 #### Adjustment Factor Calculation
 ![alt_text](assets/xip-5.png)
 
-𝑘 = Sensitivity constant, determining how sharply the rewards decrease as the price increases. 
+Adjustment Factor = $`\left(\frac{1}{1 + k \cdot \log \left(\frac{P}{P_0}\right)}\right)`$
+
+- P = Current Market price of $XNET 
+- P<sub>0</sub> = Baseline price of $XNET=$0.10
+- b = Base of Logarithm =10
+- 𝑘 = Sensitivity constant, determining how sharply the rewards decrease as the price increases. 
 
 From testing, we have found a value of 𝑘=2 works well to reduce emissions at a reasonable rate. Please refer to Appendix A for more detail on the role of k.
 
 #### Calculation of Adjustment Factors for Various Prices:
-* At $0.05: ≈ 2.512
-* At $0.10: ≈ 1
-* At $0.50: ≈ 0.590
-* At $1.00: ≈ 0.333
-* At $5.00: ≈ 0.091
+- At $0.05: Adjustment Factor = $`\left(\frac{1}{1 + 2 \cdot \log \left(0.5\right)}\right)`$ ≈ 2.512
+- At $0.10: Adjustment Factor = $`\left(\frac{1}{1 + 2 \cdot \log \left(1\right)}\right)`$ ≈ 1
+- At $0.50: Adjustment Factor = $`\left(\frac{1}{1 + 2 \cdot \log \left(5\right)}\right)`$ ≈ 0.590
+- At $1.00: Adjustment Factor = $`\left(\frac{1}{1 + 2 \cdot \log \left(10\right)}\right)`$ ≈ 0.333
+- At $5.00: Adjustment Factor = $`\left(\frac{1}{1 + 2 \cdot \log \left(50\right)}\right)`$ ≈ 0.143
+- At $10.00: Adjustment Factor = $`\left(\frac{1}{1 + 2 \cdot \log \left(100\right)}\right)`$ ≈ 0.091
 
 <table>
   <tr>
