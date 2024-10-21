@@ -53,3 +53,6 @@ This outline ensures that the WG follows a transparent and structured process fo
 |   5 | [XIP-5](XIP-5.md) | Add Status |
 |   6 | [XIP-6](XIP-6.md) | Add Status |
 |   7 | [XIP-7](XIP-7.md) | Add Status |
+|   8 | [XIP-8](XIP-8.md) | Add Status |
+|   9 | [XIP-9](XIP-9.md) | Add Status |
+|   10 | [XIP-10](XIP-10.md) | Add Status |
