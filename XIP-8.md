@@ -17,40 +17,17 @@ Coverage & Validation Rewards
 In the currently published rewards on the XNET website, there is a table of Coverage + Validation rewards per Radio Type and Hex Type.
 The Hex Types are Blue, Silver and Gold. However, there are only 16 units that currently reside in Silver hexes. In an effort to rationalize this, it is proposed that all Silver hexes are promoted to be Gold hexes. This is entirely reasonable as they are hexes adjacent to Gold hexes in city centers.
 
-<!--Radio Type
-Current Rewards
-Proposed Rewards
 
 
-Blue
-Silver
-Gold
-Blue
-Gold
-Felix / Lucius (430 / 430i)
-50
-200
-350
-200
-500
-Roofus (FW-300i)
-500
-1000
-1500
-1500
-4000
-Magnus (846N)
-750
-1500
-2250
-2000
-5000
-Linus (436Q)
-400
-800
-1200
-750
-2000-->
+| Radio Type                  | Current Rewards      | Proposed Rewards |
+|:----------------------------|:---------------------|:-----------------|
+
+|                             | Blue | Silver | Gold | Blue | Gold      |
+|:----------------------------|:-----|:-------|:-----|:-----|:----------|
+| Felix / Lucius (430 / 430i) | 50   | 200    | 350  | 200  | 500       | 
+| Roofus (FW-300i)            | 500  | 1000   | 1500 | 1500 | 4000      |
+| Magnus (846N)               | 750  | 1500   | 2250 | 2000 | 5000      |
+| Linus (436Q)                | 400  | 800    | 1200 | 750  | 2000      |
 
 These rewards are subject to having at least a 75% uptime in a particular epoch. There is a reduction of rewards to 50% of these values where the uptime is between 50% and 75%. There is an increase of rewards to 110% of these values where the uptime is greater than or equal to 99.9%. Please refer to previously passed XIP 1. 
 These rewards would ensure a reasonable return for Operators running these radios. It would also ensure that they cover their monthly operational costs, vital to ensure a healthy running network.
