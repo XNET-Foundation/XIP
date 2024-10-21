@@ -6,7 +6,7 @@ The burn rate will start high and gradually decrease over time, ensuring a signi
 ## Rationale
 Before the move to Solana, XIP 3 was introduced and passed to address XNET’s irregular token supply overhang. The XNET community implemented a 90% supply reduction, which has helped, but did not completely solve the problem. It still has left XNET with a smaller float compared to industry peers.
 
-|              | XNET   | Helium | World Mobile | 
+| Value        | XNET   | Helium | World Mobile | 
 |-------------:|:----------------|:-------------|
 | Circ. Tokens | 64.12M | 170.5M | 576M         |
 | Total Tokens | 2.4B   | 223M   | 2B           |
