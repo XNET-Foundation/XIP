@@ -19,7 +19,7 @@ The Hex Types are Blue, Silver and Gold. However, there are only 16 units that c
 
 
 
-| Radio Type                  | Current Rewards      | Proposed Rewards |
+| -------Radio Type-------    | --Current Rewards---    | Proposed Rewards |
 |:----------------------------|:---------------------|:-----------------|
 
 |                             | Blue | Silver | Gold | Blue | Gold      |
