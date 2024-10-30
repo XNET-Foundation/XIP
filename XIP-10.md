@@ -409,5 +409,19 @@ For example, if the actual emissions exceed the projected emissions, and the tot
 The XIP was modeled based on the XNET Foundation’s emissions projections.
 The impact to total supply is projected to be a reduction from 2.4B XNET to 850M XNET over a 1 year period.
 The impact to the community will be a lower impact of long term dilution of the token supply.
+### Burn Process
+Process for using the Sol Incinerator to burn an SPL fungible token.
+https://sol-incinerator.com/ 
+Sol Incinerator is a dApp on the Solana blockchain that allows anyone to permanently remove tokens from circulation, also known as “burning.”
+
+At the completion of each Epoch and after rewards distribution the token amounts will be pulled from each pool by the XNET Foundation and sent to the designated “Burn” wallet. 
+(Wallet will be created and address publicly available for transparency as well as TXs for completed burns) 
+    •    Connect wallet to Sol Incinerator to initiate token burning.
+    •    Select $XNET SPL Token 2022
+    •    Confirm the burn transaction 
+    •    After each burn, monitor https://solscan.io/ to verify the new total supply. 
+    •    Announce burn events to the XNET community 
+    •    Share updates on X and other platforms, detailing the amount burned each Epoch 
+
 ### Voting Options
 Community members can choose the following options on Align: `Support 👍🏼 or Against 👎🏼`
