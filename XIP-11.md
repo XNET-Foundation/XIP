@@ -27,11 +27,11 @@ Fibonacci-Based Emission Reduction (Two-Yearly): At the start of each new decay 
 The table below summarizes the first 40 years (which may span into multiple decay periods) with their respective Fibonacci numbers, epoch emissions, two-year totals, and the split of PoC vs. Data rewards.
 Note: Exact values may vary slightly as the Fibonacci-based reduction is applied. The 40-year total is a rough sum of the epoch emissions in that decay period span.
 
-# INSERT TABLE HERE
+![Rewards Schedule](assets/xip-11-1.png)
 
 Given that the Operator Pool has approximately 360M tokens available, as of this document date, this would not use up all of the available tokens. The balance can be used for other rewards purposes in the future.
 
-# INSERT CHART HERE
+![Rewards Chart](assets/xip-11-2.png)
 
 #### 3.2. Hybrid Reward System
 Each epoch’s emission is divided into two pools:
