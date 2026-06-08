@@ -58,3 +58,4 @@ This outline ensures that the WG follows a transparent and structured process fo
 |   10 | [XIP-10](XIP-10.md) | Passed |
 |   11 | [XIP-11](XIP-11.md) | Passed |
 |   12 | [XIP-12](XIP-12.md) | Passed |
+|   13 | [XIP-13](XIP-13.md) | In Development |
