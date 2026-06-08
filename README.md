@@ -46,15 +46,15 @@ This outline ensures that the WG follows a transparent and structured process fo
 <!-- prettier-ignore -->
 |  XIP | Title            | Status     |
 |----:|:------------------|:-----------|
-|   1 | [XIP-1](XIP-1.md) | Passed |
-|   2 | [XIP-2](XIP-2.md) | Passed |
-|   3 | [XIP-3](XIP-3.md) | Passed |
-|   4 | [XIP-4](XIP-4.md) | Passed |
-|   5 | [XIP-5](XIP-5.md) | Passed |
-|   6 | [XIP-6](XIP-6.md) | Passed |
-|   7 | [XIP-7](XIP-7.md) | Passed |
-|   8 | [XIP-8](XIP-8.md) | Passed |
-|   9 | [XIP-9](XIP-9.md) | Passed |
+|   1 | [XIP-1](XIP-01.md) | Passed |
+|   2 | [XIP-2](XIP-02.md) | Passed |
+|   3 | [XIP-3](XIP-03.md) | Passed |
+|   4 | [XIP-4](XIP-04.md) | Passed |
+|   5 | [XIP-5](XIP-05.md) | Passed |
+|   6 | [XIP-6](XIP-06.md) | Passed |
+|   7 | [XIP-7](XIP-07.md) | Passed |
+|   8 | [XIP-8](XIP-08.md) | Passed |
+|   9 | [XIP-9](XIP-09.md) | Passed |
 |   10 | [XIP-10](XIP-10.md) | Passed |
 |   11 | [XIP-11](XIP-11.md) | Passed |
 |   12 | [XIP-12](XIP-12.md) | Passed |
