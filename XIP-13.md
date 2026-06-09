@@ -23,10 +23,10 @@ There are a number of benefits expected from this mechanism:
 The key metric to determine this facility is the **Clearing Price** of the token (sometimes referred to as the Base Price in other documents). This Clearing Price is determined each month by the simple formula:
 
 ```
-Clearing Price = Total BuyBack Value in that month / Total Emitted Operator Tokens in that month
+Clearing Price = Total BuyBack Value in that month / Total Emitted Tokens in that month
 ```
 
-These figures have to be calculated monthly, and not by epoch, as payments are actually received on a monthly cadence. The monthly tokens can be relatively easily calculated using the scheduled epoch emission charts and a simple aggregation by month (see [Addendum B: Monthly Emitted Tokens](#addendum-b-monthly-emitted-tokens)).
+These figures have to be calculated monthly, and not by epoch, as payments are actually received on a monthly cadence. The monthly tokens can be relatively easily calculated using the scheduled epoch emission charts and a simple aggregation by month (see [Appendix B: Monthly Emitted Tokens](#appendix-b-monthly-emitted-tokens)).
 
 The proposal is to use this Clearing Price to calculate potential fiat payments for certain Operators, in lieu of $XNET distributions. Crucially, the token distributions still take place, supporting the entire tokenomics, but these Operators can onboard and treat the monthly fiat flow as an effective revenue-sharing mechanism (see detail below).
 
@@ -118,49 +118,57 @@ To date, there has been work to create a mechanism to translate the tokens provi
 
 However, there is a much simpler mechanism available by using the Clearing Price associated with the month. The Foundation could choose to divert some of the funds from the BuyBack route to direct fiat payments to such Operators. These payments would be at the Clearing Price, less a facilitation fee.
 
-The calculation of the payment due to an operator under such a mechanism would be:
+The calculation of the payment due to an operator in any month under such a mechanism would be:
 
 ```
-Operator Payment = (Operator tokens assigned for that month × Clearing Price) − Facilitation Fee
+Operator Payment = (Operator Tokens × Clearing Price) − Facilitation Fee
 ```
 
 The tokens assigned to an Operator in any month is made up of Data Offload tokens + Proof of Coverage tokens. Most of the tokens are assigned for data offload (70%), with the remainder (30%) for PoC.
 
-The total data offload for an operator is usually correlated with their total number of AP units, particularly those serving enough data to earn the Enhanced PoC reward (> 3GB). This means that a fair assumption is that the total number of tokens received by an Operator is proportional to their data offload. Based on this assumption, we can approximate the number of tokens received in an epoch as:
+The total data offload for an operator is usually correlated with their total number of AP units, particularly those serving enough data to earn the Enhanced PoC reward (> 3GB). This means that a fair assumption is that the total number of tokens received by an Operator is proportional to their data offload. Based on this assumption, we can approximate the number of tokens received by an operator in any month as:
 
 ```
-Operator tokens assigned for that month = (Operator GB Offload in that month / Total GB Offload in that month) × Total Emitted Operator Tokens in that month
+Operator Tokens = (Operator GB Offload / Total GB Offload) × Total Emitted Tokens
 ```
 
-Given that the Clearing Price is defined by:
+Given that the Clearing Price for any month is defined by:
 
 ```
-Clearing Price = Total Buy & Burn Value in that month / Total Emitted Operator Tokens in that month
+Clearing Price = Total BuyBack Value / Total Emitted Tokens
 ```
 
-This means that the Operator Payment simplifies to:
+This means that the Operator Payment in any month simplifies to:
 
 ```
-Operator Payment = (Operator GB Offload in that month / Total GB Offload in that month) × Total BuyBack Value in that month − Facilitation Fee
+Operator Payment = (Operator GB Offload / Total GB Offload) × Total Offload Value × (BuyBack Revenue Percentage − Facilitation Fee)
 ```
-
-### Facilitation Fee
 
 In this mechanism, the Foundation would receive the equivalent tokens for this Operator's payment. These tokens would be transferred to the Foundation Treasury for later use (e.g. they could be sold at favourable market conditions). The real value of this mechanism is the ability to avoid any purchase or sale of tokens to facilitate the fiat payment, while still supporting the distribution of tokens for the operator, albeit to the Foundation.
 
-For these Operators, this simplified formula means that they effectively participate in a Shared Revenue mechanism with XNET. By simple manipulation of terms, their calculation of their offload value becomes:
+For these Operators, this simplified formula means that they effectively participate in a Shared Revenue mechanism with XNET.
+
+We can define an important parameter that we can share with operators every month:
 
 ```
-XNET Blended GB Offload Price in any month = Total BuyBack Value in that month / Total GB Offload in that month
+XNET Offload Blended Price = Total Offload Value / Total GB Offload
 ```
 
 Therefore for any particular month, the Operator can calculate:
 
 ```
-Operator Payment = (Operator GB Offload × XNET Blended GB Offload Price) − Facilitation Fee
+Operator Payment = (Operator GB Offload × XNET Offload Blended Price) × (BuyBack Revenue Percentage − Facilitation Fee)
 ```
 
 A key point for this mechanism is the ability to accrue value to the XNET token via fee/discount by providing the fiat bypass service for large operators. Our deployers not using this mechanism are transacting in thin markets with large slippage depending on size, so a facilitation fee of 5% is not unreasonable. If business continues to grow, it's possible XNET trades above the Clearing Price, paying deployers a premium for not using the fiat bypass.
+
+The **BuyBack Revenue Percentage** is currently 80%. This means that 80% of any received offload revenue is passed to the Foundation. Using the Facilitation Fee value of 5% above, this would mean the Operator Payment would be:
+
+```
+Operator Payment = (Operator GB Offload × XNET Offload Blended Price) × 75%
+```
+
+Please refer to [Appendix C: Operator Payment Calculations](#appendix-c-operator-payment-calculations) to see this represented in short-hand mathematically.
 
 ## Receivables Financing & Accelerated Settlement
 
@@ -182,10 +190,10 @@ By principal, we wish that long-term, impactful decisions should be made by long
 
 A principled formula must be agreed upon that aligns governance power to **Stake × Duration**, ensuring active deployers are represented.
 
-## Addendum A: Historical Data
+## Appendix A: Historical Data
 
-| Month | Epoch Tokens | Adjusted Monthly Tokens | Projected Offload Payment | GB Offloaded | Blended Offload Rate | Clearing Price |
-|-------|-------------:|------------------------:|--------------------------:|-------------:|---------------------:|---------------:|
+| Month | Epoch Tokens | Adjusted Monthly Tokens | Projected Offload Payment | GB Offloaded | Blended Offload Price (per GB) | Clearing Price (per token) |
+|-------|-------------:|------------------------:|--------------------------:|-------------:|-------------------------------:|---------------------------:|
 | Jan 2025 | 2,500,000 | 5,535,714 | $1,396.92 | 13,969 | $0.1000 | $0.0002 |
 | Feb 2025 | 2,500,000 | 5,000,000 | $1,704.18 | 17,042 | $0.1000 | $0.0003 |
 | Mar 2025 | 2,500,000 | 5,535,714 | $2,118.10 | 21,180 | $0.1000 | $0.0003 |
@@ -204,7 +212,7 @@ A principled formula must be agreed upon that aligns governance power to **Stake
 | Apr 2026 | 2,500,000 | 5,357,143 | $24,248.53 | 154,963 | $0.1565 | $0.0036 |
 | May 2026 | 2,500,000 | 5,535,714 | $32,758.38 | 197,495 | $0.1659 | $0.0047 |
 
-## Addendum B: Monthly Emitted Tokens
+## Appendix B: Monthly Emitted Tokens
 
 | Month | Epoch Tokens | Adjusted Monthly Tokens |
 |-------|-------------:|------------------------:|
@@ -262,3 +270,76 @@ A principled formula must be agreed upon that aligns governance power to **Stake
 | Oct 2030 | 833,334 | 1,845,240 |
 | Nov 2030 | 833,334 | 1,785,716 |
 | Dec 2030 | 833,334 | 1,845,240 |
+
+## Appendix C: Operator Payment Calculations
+
+The calculations below are a reformulation of the calculations in the text above, but using short-hand mathematical representation. All values below refer to monthly totals rather than per epoch.
+
+### Definitions
+
+| Symbol | Definition |
+|--------|------------|
+| A | Total BuyBack Value |
+| B | Total Emitted Tokens |
+| C | Total Offload Value |
+| D | Total Offload measured in GB |
+| E | Operator Offload measured in GB |
+| F | Operator Assigned Tokens |
+| G | Facilitation Fee |
+| CP | Clearing Price (per token) |
+| BP | XNET Offload Blended Price (per GB) |
+| BRP | BuyBack Revenue Percentage (currently 80%) |
+| OP | Operator Payment |
+
+### Calculations
+
+```
+OP = (F × CP) − G
+```
+
+However, by definition:
+
+```
+CP = A / B
+∴ OP = (F × A) / B − G
+```
+
+Given the strong correlation of the total tokens given to an operator to their total offload GB (see main-body text) we have:
+
+```
+F ≈ (E / D) × B
+∴ OP = ((E / D) × B × A / B) − G = (E × A) / D − G
+```
+
+However, by definition:
+
+```
+BP = C / D
+∴ D = C / BP
+∴ OP = (E × A) / (C / BP) − G = (E × A × BP) / C − G
+```
+
+However, by definition:
+
+```
+A = C × BRP
+∴ OP = (E × C × BRP × BP) / C − G = (E × BRP × BP) − G
+```
+
+Importantly, this equation is independent of any token-related parameters.
+
+If we assume that the Facilitation Fee (G) can be represented as a percentage, then we have:
+
+```
+OP = (E × BP) × (BRP − G)
+```
+
+Assuming a BuyBack Revenue Percentage (BRP) of 80% and a Facilitation Fee (G) of 5%, this gives us the simplified:
+
+```
+OP = (E × BP) × (80% − 5%) = (E × BP) × 75%
+```
+
+```
+Operator Payment = (Operator Offload × XNET Offload Blended Price) × 75%
+```
