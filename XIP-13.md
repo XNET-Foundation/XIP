@@ -162,6 +162,18 @@ Operator Payment = (Operator GB Offload × XNET Blended GB Offload Price) − Fa
 
 A key point for this mechanism is the ability to accrue value to the XNET token via fee/discount by providing the fiat bypass service for large operators. Our deployers not using this mechanism are transacting in thin markets with large slippage depending on size, so a facilitation fee of 5% is not unreasonable. If business continues to grow, it's possible XNET trades above the Clearing Price, paying deployers a premium for not using the fiat bypass.
 
+## Receivables Financing & Accelerated Settlement
+
+Certain Operators, particularly ISPs, MSPs, enterprise deployments, and venue owners, may require more frequent and predictable cash flows than underlying carrier or enterprise payment cycles provide.
+
+To support network growth, the Foundation may permit approved third-party financing providers to offer optional receivables financing, factoring, or accelerated settlement facilities to Operators.
+
+Such providers may underwrite future Operator receivables using factors including historical offload performance, assigned token emissions, Clearing Price calculations, expected Offload Revenue, and other network metrics.
+
+Participation in any financing arrangement shall be voluntary and independent of the Operator reward mechanism. The Foundation shall not be required to guarantee any financing facility provided by a third party.
+
+Examples of potential financing providers may include infrastructure finance platforms, credit funds, or ecosystem participants such as Fractals.
+
 ## Token Governance
 
 Once the Foundation holds a sizable Treasury Book value, there will be more interest in token holders to participate in decisions on the control of such funds.
