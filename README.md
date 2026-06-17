@@ -44,4 +44,5 @@ Implemented XIPs are monitored for intended effect. Material changes or follow-o
 |   10 | [XIP-10](XIP-10.md) | Passed |
 |   11 | [XIP-11](XIP-11.md) | Passed |
 |   12 | [XIP-12](XIP-12.md) | Passed |
-|   13 | [XIP-13](XIP-13.md) | In Development |
+| 13.1 | [XIP-13.1](xip-13-1.md) | In Development |
+| 13-A | [XIP-13-A](xip-13-a.md) | In Development |
