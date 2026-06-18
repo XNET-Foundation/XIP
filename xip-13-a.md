@@ -12,6 +12,7 @@ There are a number of benefits expected from this mechanism:
 - Allow the Foundation to build a fiat & digital asset treasury book to support the value of the token.
 - Reduce the incentivisation of short-term investors and accrue value for long-term holders of the token. This will align token holders with long-term objectives of XNET, to create a sustainable ecosystem and retain flexibility as the treasury grows.
 - Allow certain Operators to be paid directly in fiat currency at the determined Clearing Price (minus a fee/discount) for the token at that epoch. This would effectively allow them to participate in a Shared Revenue model, while we still support the tokenomics of the project.
+- Initially, these larger operators are expected to be defined as having > 1TB data offload per day, on average.
 - Improve the governance of the token by encouraging holders to stake their tokens to facilitate voting control over the treasury pool. Align governance with long-term objectives of XNET to hold $XNET tokens, participate in governance operations/improvements and to grow the overall XNET ecosystem.
 
 ## Mechanism
@@ -19,11 +20,10 @@ There are a number of benefits expected from this mechanism:
 The key metric to determine this facility is the Clearing Price of the token (sometimes referred to as the Base Price in other documents). This Clearing Price is determined each month by the simple formula:
 
 ```
-Clearing Price = Total BuyBack Value in that month /
-     Total Emitted Tokens in that month
+Clearing Price = Total BuyBack Value in that month / Total Emitted Tokens in that month
 ```
 
-These figures have to be calculated monthly, and not by epoch, as payments are actually received on a monthly cadence. The monthly tokens can be relatively easily calculated using the scheduled epoch emission charts and a simple aggregation by month (see [Appendix B: Monthly Emitted Tokens](#appendix-b-monthly-emitted-tokens)).
+These figures have to be calculated monthly, and not by epoch, as payments are actually received on a monthly cadence. The monthly tokens can be relatively easily calculated using the scheduled epoch emission charts and a simple aggregation by month (see Appendix B: Monthly Emitted Tokens).
 
 The proposal is to use this Clearing Price to calculate potential fiat payments for certain Operators, in lieu of $XNET distributions. Crucially, the token distributions still take place, supporting the entire tokenomics, but these Operators can onboard and treat the monthly fiat flow as an effective revenue-sharing mechanism (see detail below).
 
@@ -37,7 +37,7 @@ Assuming that $100,000 is received for data offload in a particular month from c
 
 The $60k is gone forever as it cashes out either 1) a Deployer (a good thing), or 2) a Seller/Speculator.
 
-The $20k used by the Foundation for Liquidity support at least builds some book value in USDC/XNET or SOL/XNET. This stays with the treasury and builds over time to back the token book value.
+The $20k used by the Foundation for Liquidity support at least builds some book value in USDC/XNET or SOL/XNET.  This stays with the treasury and builds over time to back the token book value.
 
 ## Proposed Scenario - Worked Example
 
@@ -124,7 +124,7 @@ Operator Payment = ( Operator Tokens * Clearing Price )
 
 The tokens assigned to an Operator in any month is made up of Data Offload tokens + Proof of Coverage tokens. Most of the tokens are assigned for data offload (70%), with the remainder (30%) for PoC.
 
-The total data offload for an operator is usually correlated with their total number of AP units, particularly those serving enough data to earn the Enhanced PoC reward (&gt; 3GB). This means that a fair assumption is that the total number of tokens received by an Operator is proportional to their data offload. Based on this assumption, we can approximate the number of tokens received by an operator in any month as:
+The total data offload for an operator is usually correlated with their total number of AP units, particularly those serving enough data to earn the Enhanced PoC reward (> 3GB). This means that a fair assumption is that the total number of tokens received by an Operator is proportional to their data offload. Based on this assumption, we can approximate the number of tokens received by an operator in any month as:
 
 ```
 Operator Tokens = ( Operator GB Offload / Total GB Offload )
@@ -170,7 +170,9 @@ The BuyBack Revenue Percentage is currently 80%. This means that 80% of any rece
 Operator Payment = (Operator GB Offload * XNET Offload Blended Price) * 75%
 ```
 
-Please refer to [Appendix C: Operator Payment Calculations](#appendix-c-operator-payment-calculations) to see this represented in short-hand mathematically.
+The assumption in this version of the XIP is that all tokens assigned to the fiat operator, both Data and PoC, are transferred to the Treasury Book.
+
+Please refer to Appendix C: Operator Payment Calculations to see this represented in short-hand mathematically.
 
 ## Receivables Financing & Accelerated Settlement
 
@@ -354,17 +356,17 @@ The month of May 2026 are actuals, all other months are projections. These proje
 
 | Month | Adjusted Monthly Tokens | Total Offload GB (Projected) | Total Offload Value (Projected) | Offload Blended Price (per GB) | Offload Fiat Price (per GB) | Clearing Price (per Token) |
 |-------|------------------------:|-----------------------------:|--------------------------------:|-------------------------------:|----------------------------:|---------------------------:|
-| May 2026 | 5,535,714 | 197,495 | $31,599 | $0.1600 | $0.1200 | $0.0057 |
-| Jun 2026 | 5,357,143 | 230,000 | $36,800 | $0.1600 | $0.1200 | $0.0069 |
-| Sep 2026 | 5,357,143 | 300,000 | $48,000 | $0.1600 | $0.1200 | $0.0090 |
-| Dec 2026 | 5,535,714 | 400,000 | $64,000 | $0.1600 | $0.1200 | $0.0116 |
-| Mar 2027 | 2,767,857 | 500,000 | $80,000 | $0.1600 | $0.1200 | $0.0289 |
-| Jun 2027 | 2,678,571 | 800,000 | $128,000 | $0.1600 | $0.1200 | $0.0478 |
-| Sep 2027 | 2,678,571 | 1,500,000 | $240,000 | $0.1600 | $0.1200 | $0.0896 |
-| Dec 2027 | 2,767,857 | 3,000,000 | $480,000 | $0.1600 | $0.1200 | $0.1734 |
-| Dec 2028 | 2,767,857 | 12,000,000 | $1,920,000 | $0.1600 | $0.1200 | $0.6937 |
-| Dec 2029 | 1,845,240 | 24,000,000 | $3,840,000 | $0.1600 | $0.1200 | $2.0810 |
-| Dec 2030 | 1,845,240 | 36,000,000 | $5,760,000 | $0.1600 | $0.1200 | $3.1215 |
+| May 2026 | 5,535,714 | 197,495 | $32,758 | $0.1600 | $0.1200 | $0.0047 |
+| Jun 2026 | 5,357,143 | 230,000 | $36,800 | $0.1600 | $0.1200 | $0.0055 |
+| Sep 2026 | 5,357,143 | 300,000 | $48,000 | $0.1600 | $0.1200 | $0.0072 |
+| Dec 2026 | 5,535,714 | 400,000 | $64,000 | $0.1600 | $0.1200 | $0.0092 |
+| Mar 2027 | 2,767,857 | 500,000 | $80,000 | $0.1600 | $0.1200 | $0.0231 |
+| Jun 2027 | 2,678,571 | 800,000 | $128,000 | $0.1600 | $0.1200 | $0.0382 |
+| Sep 2027 | 2,678,571 | 1,500,000 | $240,000 | $0.1600 | $0.1200 | $0.0717 |
+| Dec 2027 | 2,767,857 | 3,000,000 | $480,000 | $0.1600 | $0.1200 | $0.1387 |
+| Dec 2028 | 2,767,857 | 12,000,000 | $1,920,000 | $0.1600 | $0.1200 | $0.5549 |
+| Dec 2029 | 1,845,240 | 24,000,000 | $3,840,000 | $0.1600 | $0.1200 | $1.6648 |
+| Dec 2030 | 1,845,240 | 36,000,000 | $5,760,000 | $0.1600 | $0.1200 | $2.4972 |
 
 If we assume that 75% of the monthly traffic is for the larger operators who opt for fiat payments only, then, using the same assumptions as above, we can project numbers of $XNET tokens and USDC accumulated in various pools.
 
@@ -394,7 +396,7 @@ However, once we introduce fiat payments for certain operators, then the value t
 
 If we assume that we use the projections in the tables of Appendix D, and retain the existing BuyBack & Burn rules, we can make some projections for the amount of tokens that might be acquired and Burnt over time. For this we will retain the previous assumption data traffic is for operators who opt for fiat payments rather than $XNET tokens. These calculations would work well with other assumed splits.
 
-To facilitate these calculations, we have to use the projected emission tables for the Operator Pool over several months and years. These are well described in [XIP-11](/foundation/xnet-token/governance/xnet-improvement-proposals/xip-11).
+To facilitate these calculations, we have to use the projected emission tables for the Operator Pool over several months and years. These are well described in XIP-11.
 
 We also have to project some estimates for other emissions, particularly the unlocking of Insider and Investor tokens. These tokens are mostly on a five-year non-linear monthly unlocking schedule, starting in Jan 2025 and continuing for five years till 2030. The monthly unlocks are weighted heavily towards the end of this period.
 
@@ -410,7 +412,7 @@ As of the date of this writing, the key metrics of the $XNET token are:
 | 2028 | 454,313,272 | 32,500,000 | 125,910,771 | 35% |
 | 2029 | 643,860,984 | 21,666,684 | 167,881,028 | 49% |
 | 2030 | 673,921,719 | 21,666,684 | 8,394,051 | 52% |
-| | | **140,833,368** | **395,626,365** | |
+| | | 140,833,368 | 395,626,365 | |
 
 From the table above we can work out the possible impact of a BuyBack & Burn mechanism on the total circulating supply. For this we will need to interpolate the data values forecast in Appendix D, in order to get annual figures for 2026-2030.
 
@@ -421,7 +423,7 @@ From the table above we can work out the possible impact of a BuyBack & Burn mec
 | 2028 | 86,400,000 | $0.423 | $13,824,000 | $3,283,200 | 7,739,955 | 30,959,821 | 454,313,272 | 6.81% |
 | 2029 | 222,000,000 | $1.634 | $35,520,000 | $8,436,000 | 5,159,974 | 36,119,796 | 643,860,984 | 5.61% |
 | 2030 | 366,000,000 | $2.695 | $58,560,000 | $13,908,000 | 5,159,974 | 41,279,770 | 673,921,719 | 6.13% |
-| **Totals** | | | **$110,693,587** | **$26,289,727** | | **41,279,770** | | |
+| Totals | | | $110,693,587 | $26,289,727 | | 41,279,770 | | |
 
 It is fair to assume that not many token holders would want to sell their tokens at much of a discount to the Clearing Price for that month. As can be seen from the table, this means that the cumulative impact of burning these acquired tokens would be not significant.
 
