@@ -3,9 +3,12 @@
 **Authors:** Fractals  
 **Status:** In Development  
 **Type:** Ecosystem / Operator Financing  
-**Created:** 2026-07-02
+**Created:** 2026-07-02  
+**Updated:** 2026-07-23
 
 ## Abstract
+
+This program applies only to XNET enterprise payments (carrier offload revenue). It does not apply to token emissions or other non-enterprise payouts.
 
 Fractals is developing a receivables financing program to help accelerate cash flow for XNET deployers. The program gives deployers the option to opt in to accelerated payments against earned carrier receivables, rather than waiting for the normal carrier reconciliation and settlement cycle.
 
@@ -38,7 +41,7 @@ The fee is designed around the existing carrier settlement cycle:
 
 - Revenue is reconciled at month-end
 - Carrier payment typically follows approximately **net-60** timing
-- An additional **~15-day** payment buffer is assumed
+- An additional **15-day** payment buffer applies
 - By advancing funds at the end of each month, Fractals is effectively financing receivables for approximately **75 days**
 
 Because carrier revenue is earned continuously throughout the month, the effective financing period varies slightly by when traffic was generated. The 9.5% fee reflects the economics of advancing a deployer's entire monthly receivable as a single monthly payment, rather than pricing individual traffic events independently.
